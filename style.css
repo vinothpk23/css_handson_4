@@ -47,13 +47,59 @@ li{
     background-color: skyblue;
     border: 3px red solid;
     border-radius: 10px;
-    
-    
 }
 .flexbox{
-    height: 100px;
+    height: 58px;
     width: 400px;
     border: 3px green solid;
     border-radius: 10px;
     background-color: aqua;
+}
+.flexbox p{
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.heading2{
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(to right,red, yellow,red);
+}
+.heading2 h3{
+    margin: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    height: 150px;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    border: 2px green solid;
+    background-image: radial-gradient(circle, blue, green);
+    padding: 70px;
+}
+.flexbox2{
+    height: 120px;
+    width: 200px;
+    border: 2px red solid;
+    border-radius: 10px;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    background-color: #e4d00a;
+}
+
+.heading3{
+    height: 40px;
+    width: 100%;
+    background-color: #ff6464;
+}
+.heading3 h2{
+    margin: 0;
+    text-align: center;
+    color: white;
 }
