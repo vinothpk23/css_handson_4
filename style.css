@@ -1,19 +1,20 @@
-body{
+body {
     margin: 0;
 }
 
-.heading1{
+.heading1 {
     height: 40px;
     width: 100%;
     background: linear-gradient(to right, red, green, yellow);
 }
 
-.heading1 h1{
+.heading1 h1 {
     margin: 0;
     text-align: center;
     text-decoration: underline;
 }
-.box1{
+
+.box1 {
     height: 82px;
     width: 60%;
     background-color: lightblue;
@@ -23,21 +24,23 @@ body{
     /* text-align: center; */
 
 }
+
 li {
- padding-left: 70px;   
+    padding-left: 70px;
 }
 
-ul{
+ul {
     margin-left: 250px;
-    
+
 }
+
 /* 
 li{
     text-align: center;
     position: relative;
 } */
 
-.flex1{
+.flex1 {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -48,29 +51,33 @@ li{
     border: 3px red solid;
     border-radius: 10px;
 }
-.flexbox{
+
+.flexbox {
     height: 58px;
     width: 400px;
     border: 3px green solid;
     border-radius: 10px;
     background-color: aqua;
 }
-.flexbox p{
+
+.flexbox p {
     line-height: 0px;
     font-weight: bold;
 }
 
-.heading2{
+.heading2 {
     height: 40px;
     width: 100%;
-    background: linear-gradient(to right,red, yellow,red);
+    background: linear-gradient(to right, red, yellow, red);
 }
-.heading2 h3{
+
+.heading2 h3 {
     margin: 0;
     text-align: center;
     text-decoration: underline;
 }
-.flex2{
+
+.flex2 {
     display: flex;
     flex-wrap: wrap;
     background-color: lightblue;
@@ -82,7 +89,8 @@ li{
     background-image: radial-gradient(circle, blue, green);
     padding: 70px;
 }
-.flexbox2{
+
+.flexbox2 {
     height: 120px;
     width: 200px;
     border: 2px red solid;
@@ -93,13 +101,100 @@ li{
     background-color: #e4d00a;
 }
 
-.heading3{
+.heading3 {
     height: 40px;
     width: 100%;
     background-color: #ff6464;
 }
-.heading3 h2{
+
+.heading3 h2 {
     margin: 0;
     text-align: center;
     color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+    border: 1px solid red;
+    gap: 15px;
+    text-align: center;
+}
+
+.griditem {}
+
+.item1 {
+    background-color: #ff6464;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 45px;
+}
+
+.item1 h2 {
+    margin-top: 1px;
+}
+
+.item2 {
+    background-color: lightgreen;
+    height: 80px;
+    line-height: 10px;
+}
+
+.item2 h1 {
+    margin-top: 10px;
+}
+
+.item3 {
+    background-color: blue;
+    height: 80px;
+    line-height: 10px;
+    text-align: left;
+}
+
+.item3 h2 {
+    margin-top: 10px;
+}
+
+.item4 {
+    background-color: darkorchid;
+    height: 80px;
+    line-height: 3px;
+    text-align: left;
+}
+
+.item4 h3 {
+    margin-top: 7px;
+}
+
+.item5 {
+    background-color: darkslategray;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    text-decoration: underline;
+    height: 225px;
+}
+
+.item6 {
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 21px;
+    text-align: left;
+    line-height: 0%;
+    height: 130px;
+}
+
+.item7 {
+    background-color: skyblue;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 25px;
+    color: black;
+}
+
+.item7 h2 {
+    margin-top: 1px;
 }
